@@ -12,7 +12,7 @@ function verify () {
   if (age >= 17) {
     // you have to put the highest rating first becasue it will filter through from top to bottom, meaning if this was at the bottom, it wouldn't matter what age was put in it wouldn't work
     document.getElementById('answer').innerHTML = 'You Can see an R movie alone.'
-} else if (age >= 13) {
+  } else if (age >= 13) {
     // if they're age is greater than 13 it will display the message
     document.getElementById('answer').innerHTML = 'You can see a PG-13 movie alone.'
   } else if (age >= 5) {
