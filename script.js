@@ -16,7 +16,7 @@ function verify () {
     // if they're age is greater than 13 it will display the message
     document.getElementById('answer').innerHTML = 'You can see a PG-13 movie alone.'
   } else if (age >= 5) {
-    //else if is if the input is greater than 5 it will display the message showing what rated movie they can watch
+    // else if is if the input is greater than 5 it will display the message showing what rated movie they can watch
     document.getElementById('answer').innerHTML = 'You can see a G or a PG movie alone.'
   } else {
     document.getElementById('answer').innerHTML = 'Uh, you are too young for most things.'
